@@ -14,7 +14,7 @@
 
 <!--navigation bar starts-->
 <div id="nav-bar" class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-    <div class="nav-row" style="padding: 5px">
+    <div class="nav-row" style="padding-left: 5px">
         <img src="images/logo.png" width="30px">
         <input type="search">
     </div>
@@ -36,6 +36,7 @@
         <p>Messaging</p>
     </div>
     <div class="nav-row">
+        <img src="images/profile-02.jpg" alt="" width="35px" style="border-radius: 35px">
         <p>Me</p>
     </div>
     <div class="nav-row">
@@ -58,7 +59,7 @@
             <div class="card">
                 <img src="images/images.jpg" class="card-img-top" alt="...">
 
-                <img src="images/logo.png" class="card-img-top" alt="..." id="profile-image">
+                <img src="images/profile-02.jpg" class="card-img-top" alt="..." id="profile-image">
                 <div class="card-body" id="profile-card">
                     <br>
                     <br>
@@ -150,7 +151,7 @@
                 <div class="container" style="padding: 0">
                     <div class="row">
                         <div class="col-sm-2">
-                            <img src="images/logo.png" width="25px" style="border-radius: 20px">
+                            <img src="images/profile-00.jpg" width="25px" style="border-radius: 20px">
                         </div>
                         <div class="col-sm-6">
                             <p>
@@ -170,7 +171,7 @@
                 <div class="container" style="padding: 0">
                     <div class="row">
                         <div class="col-sm-2">
-                            <img src="images/logo.png" width="25px" style="border-radius: 20px">
+                            <img src="images/profile-06.jpg" width="25px" style="border-radius: 20px">
                         </div>
                         <div class="col-sm-6">
                             <p>
@@ -190,7 +191,7 @@
                 <div class="container" style="padding: 0">
                     <div class="row">
                         <div class="col-sm-2">
-                            <img src="images/logo.png" width="25px" style="border-radius: 20px">
+                            <img src="images/profile-05.jpg" width="25px" style="border-radius: 20px">
                         </div>
                         <div class="col-sm-6">
                             <p>
@@ -211,7 +212,10 @@
                     <a href="#" style="font-size: 12px">View all Recommendations</a>
                 </div>
                 <div class="card-footer">
-                    <img src="images/feed.jpg" width="200px">
+                    <img src="images/ad-image.jpg" width="200px">
+                </div>
+                <div class="card-footer">
+                    <img src="images/ad-image-2.jpg" width="200px">
                 </div>
             </div>
         </div>
@@ -221,9 +225,173 @@
 </div>
 <!--body ends-->
 
-<div id="message-form">
-    Message
+<!--message secction starts-->
+
+<div id="messageBarOpen">
+    <p>
+        <i class="fas fa-comment-alt"></i>
+        Messages
+    </p>
 </div>
+
+<div id="messageBarClose">
+    <p>
+        <i class="fas fa-comment-alt"></i>
+        Messages
+    </p>
+</div>
+
+<div id="messageFeed">
+    <div class="card">
+        <div class="row guestRow" id="rowDiluni">
+            <div class="col-sm-4" style="padding: 0;">
+                <img src="images/profile-04.jpg" width="50px" style="border-radius: 50px">
+            </div>
+            <div class="col-sm-7" style="padding: 0;text-align: left;font-size: 15px">
+                <b>Diluni Malsha</b>
+            </div>
+        </div>
+        <hr>
+        <div class="row guestRow" id="rowKavindu">
+            <div class="col-sm-4" style="padding: 0;">
+                <img src="images/profile-01.jpg" width="50px" style="border-radius: 50px">
+            </div>
+            <div class="col-sm-7" style="padding: 0;text-align: left;font-size: 15px">
+                <b>Kavindu Dhananjaya</b>
+            </div>
+        </div>
+        <hr>
+        <div class="row guestRow" id="rowKalana">
+            <div class="col-sm-4" style="padding: 0;">
+                <img src="images/profile-03.jpg" width="50px" style="border-radius: 50px">
+            </div>
+            <div class="col-sm-7" style="padding: 0;text-align: left;font-size: 15px">
+                <b>Kalana Sasanka</b>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="messageFeedDiluni">
+    <div class="card" style="border: none">
+        <div class="card-header" style="padding: 0">
+            <div class="row" style="padding: 0">
+                <div class="col-sm-4">
+                    <img src="images/profile-04.jpg" width="50px" style="border-radius: 50px">
+                </div>
+                <div class="col-sm-7" style="padding: 0;text-align: left;font-size: 15px">
+                    <b>Diluni Malsha</b>
+                    <p class="activeStatus">Active</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="guest">
+                <b>Diluni:</b>
+                hi!
+            </p>
+        </div>
+        <div class="row">
+            <p class="you">
+                <b>You:</b>
+                hi!
+            </p>
+        </div>
+        <div class="row">
+            <p class="guest">
+                <b>Diluni:</b>
+                how are you?
+            </p>
+        </div>
+        <div class="row">
+            <p class="you">
+                <b>You:</b>
+                fine..how about you?
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="messageFeedKavindu">
+    <div class="card" style="border: none">
+        <div class="card-header" style="padding: 0">
+            <div class="row" style="padding: 0">
+                <div class="col-sm-4">
+                    <img src="images/profile-01.jpg" width="50px" style="border-radius: 50px">
+                </div>
+                <div class="col-sm-7" style="padding: 0;text-align: left;font-size: 15px">
+                    <b>Kavindu Dhananjaya</b>
+                    <p class="activeStatus">Active</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="guest">
+                <b>Kavindu:</b>
+                hi!
+            </p>
+        </div>
+        <div class="row">
+            <p class="you">
+                <b>You:</b>
+                hi!
+            </p>
+        </div>
+        <div class="row">
+            <p class="guest">
+                <b>Kavindu:</b>
+                how are you?
+            </p>
+        </div>
+        <div class="row">
+            <p class="you">
+                <b>You:</b>
+                fine..how about you?
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="messageFeedKalana">
+    <div class="card" style="border: none">
+        <div class="card-header" style="padding: 0">
+            <div class="row" style="padding: 0">
+                <div class="col-sm-4">
+                    <img src="images/profile-03.jpg" width="50px" style="border-radius: 50px">
+                </div>
+                <div class="col-sm-7" style="padding: 0;text-align: left;font-size: 15px">
+                    <b>Kalana Sasanka</b>
+                    <p class="activeStatus">Active</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="guest">
+                <b>Kalana:</b>
+                hi!
+            </p>
+        </div>
+        <div class="row">
+            <p class="you">
+                <b>You:</b>
+                hi!
+            </p>
+        </div>
+        <div class="row">
+            <p class="guest">
+                <b>Kalana:</b>
+                how are you?
+            </p>
+        </div>
+        <div class="row">
+            <p class="you">
+                <b>You:</b>
+                fine..how about you?
+            </p>
+        </div>
+    </div>
+</div>
+<!--message secction ends-->
 
 <div id="post-box" style="display: none">
     <div class="card">
@@ -244,7 +412,7 @@
             mollitia quaerat sit!
         </div>
         <div class="card-footer" style="text-align: center;font-size: 14px!important;">
-            <img src="images/feed.jpg" width="500px">
+            <img src="images/post-picture.jpg" width="450px">
         </div>
     </div>
 
@@ -282,13 +450,6 @@
     </div>
 </div>
 
-
-<div class="msg-form-content">
-    <div id="msg-form-header">Message</div>
-    l
-</div>
-
-
 <script>
 
     function onClick() {
@@ -312,7 +473,51 @@
 
     });
 
+    document.getElementById("messageBarOpen").addEventListener('click',
+        function (ev) {
+            document.getElementById("messageFeed").style.display='inline';
+            document.getElementById("messageBarOpen").style.display='none';
+            document.getElementById("messageBarClose").style.display='inline';
+        }
+    );
+
+    document.getElementById("messageBarClose").addEventListener('click',
+        function (ev) {
+            document.getElementById("messageFeed").style.display='none';
+            document.getElementById("messageBarOpen").style.display='inline';
+            document.getElementById("messageBarClose").style.display='none';
+            document.getElementById("messageFeedDiluni").style.display='none';
+            document.getElementById("messageFeedKavindu").style.display='none';
+            document.getElementById("messageFeedKalana").style.display='none';
+        }
+    );
+
+    document.getElementById("rowDiluni").addEventListener('click',
+        function (ev) {
+            document.getElementById("messageFeedDiluni").style.display='inline';
+            document.getElementById("messageFeedKavindu").style.display='none';
+            document.getElementById("messageFeedKalana").style.display='none';
+        }
+    );
+
+    document.getElementById("rowKavindu").addEventListener('click',
+        function (ev) {
+            document.getElementById("messageFeedDiluni").style.display='none';
+            document.getElementById("messageFeedKavindu").style.display='inline';
+            document.getElementById("messageFeedKalana").style.display='none';
+        }
+    );
+
+    document.getElementById("rowKalana").addEventListener('click',
+        function (ev) {
+            document.getElementById("messageFeedDiluni").style.display='none';
+            document.getElementById("messageFeedKavindu").style.display='none';
+            document.getElementById("messageFeedKalana").style.display='inline';
+        }
+    );
+
 </script>
+
 </body>
 
 </html>

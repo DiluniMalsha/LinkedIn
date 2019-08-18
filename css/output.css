@@ -3,7 +3,7 @@ body {
 }
 
 #nav-bar {
-  height: 60px;
+  height: 70px;
   background-color: #2b566e;
 }
 #nav-bar div {
@@ -14,6 +14,7 @@ body {
 .nav-row {
   display: inline-block;
   color: white;
+  padding-top: 5px;
 }
 
 #body-main-box {
@@ -180,32 +181,104 @@ td {
   cursor: pointer;
 }
 
-#message-form {
+#messageBarOpen {
   position: fixed;
   width: 300px;
   height: 40px;
-  bottom: 0;
+  bottom: 5px;
   right: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
   background-color: #0c5460;
   color: white;
+  cursor: pointer;
 }
 
-.msg-form-content {
+#messageBarClose {
   position: fixed;
-  right: 50px;
-  bottom: 45px;
-  width: 300px;
-  background-color: white;
-  /*display: none;*/
-}
-
-#msg-form-header {
-  position: relative;
   width: 300px;
   height: 40px;
-  top: 0;
+  bottom: 5px;
+  right: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
   background-color: #0c5460;
   color: white;
+  cursor: pointer;
+  display: none;
+}
+
+#messageFeed {
+  position: fixed;
+  bottom: 55px;
+  right: 50px;
+  padding-top: 10px;
+  padding-left: 0;
+  width: 300px;
+  text-align: center;
+  background-color: #fffede;
+  color: black;
+  font-size: 20px;
+  border: 1px solid black;
+  display: none;
+}
+
+#messageFeedDiluni {
+  position: fixed;
+  bottom: 55px;
+  right: 360px;
+  padding-top: 10px;
+  padding-left: 5px;
+  width: 300px;
+  background-color: #fffede;
+  color: black;
+  font-size: 15px;
+  border: 1px solid black;
+  display: none;
+}
+
+#messageFeedKavindu {
+  position: fixed;
+  bottom: 55px;
+  right: 360px;
+  padding-top: 10px;
+  padding-left: 5px;
+  width: 300px;
+  background-color: #fffede;
+  color: black;
+  font-size: 15px;
+  border: 1px solid black;
+  display: none;
+}
+
+#messageFeedKalana {
+  position: fixed;
+  bottom: 55px;
+  right: 360px;
+  padding-top: 10px;
+  padding-left: 5px;
+  width: 300px;
+  background-color: #fffede;
+  color: black;
+  font-size: 15px;
+  border: 1px solid black;
+  display: none;
+}
+
+.guest {
+  color: #0c5460;
+}
+
+.you {
+  color: black;
+}
+
+.activeStatus {
+  color: green;
+}
+
+.guestRow {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=output.css.map */
